@@ -25,7 +25,6 @@ __exportStar(require("./middlewares/current-user-handler"), exports);
 __exportStar(require("./middlewares/error-handler"), exports);
 __exportStar(require("./middlewares/require-auth-handler"), exports);
 __exportStar(require("./middlewares/validation-request"), exports);
-//comments
 __exportStar(require("./events/base-listner"), exports);
 __exportStar(require("./events/base-publisher"), exports);
 __exportStar(require("./events/subjects"), exports);
@@ -34,3 +33,4 @@ __exportStar(require("./events/ticket-updated-event"), exports);
 __exportStar(require("./events/order-created-event"), exports);
 __exportStar(require("./events/order-cancelled-event"), exports);
 __exportStar(require("./events/types/order-status"), exports);
+__exportStar(require("./events/expiration-compelete-event"), exports);
