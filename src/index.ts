@@ -12,10 +12,6 @@ export * from "./middlewares/require-auth-handler"
 export * from "./middlewares/validation-request"
 
 
-//comments
-//2 comments
-//3comments
-//4 cooments
 export * from "./events/base-listner"
 export * from "./events/base-publisher"
 export * from "./events/subjects"
@@ -23,7 +19,7 @@ export * from "./events/ticket-created-event"
 export * from "./events/ticket-updated-event"
 export * from "./events/order-created-event"
 export * from "./events/order-cancelled-event"
-//last cooments
+
 
 export * from "./events/types/order-status"
 export * from "./events/expiration-compelete-event"
