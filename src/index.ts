@@ -23,3 +23,4 @@ export * from "./events/order-cancelled-event"
 
 export * from "./events/types/order-status"
 export * from "./events/expiration-compelete-event"
+export * from "./events/payment-created-event"
