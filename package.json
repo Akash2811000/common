@@ -7,6 +7,11 @@
   "files": [
     "build/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Akash2811000/common"
+  },
+  
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
